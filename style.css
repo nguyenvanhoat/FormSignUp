@@ -1,0 +1,80 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.main {
+    color: #333;
+    background-color: blueviolet;
+    min-height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+}
+
+.form-2 {
+    width: 360px;
+    background-color: #f1f1f1;
+    min-height: 100px;
+    align-self: center;
+    border-radius: 20px;
+    padding: 10px 30px;
+    text-align: center;
+    margin: 20px;
+    color: rgb(100, 100, 100);
+}
+
+.form-heading {
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(255, 116, 139);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.form-label {
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.form-control {
+    height: 40px;
+    outline: none;
+    border: 1px solid #cfffff;
+    font-size: 18px;
+}
+
+.form-submit {
+    padding: 10px 30px;
+    margin-top: 20px;
+    border: none;
+    background-color: aqua;
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.form-add a {
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+    margin-top: 3px;
+}
+
+.form-forgot-password {
+    float: left;
+}
+
+.form-sign-up {
+    float: right;
+    margin-right: 4px;
+}
